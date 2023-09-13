@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { portfolio } from '../../data';
-import Portfolioitem from '../../components/Portfolioitem';
+import Portfolioitem from "../../components/PortfolioItem";
 import "./portfolio.css";
 
 
