@@ -58,176 +58,176 @@ export const links = [
 export const personalInfo = [
   {
     id: 1,
-    title: 'First Name : ',
-    description: 'Lucas',
+    title: "First Name : ",
+    description: "Lucas",
   },
 
   {
     id: 2,
-    title: 'Last Name : ',
-    description: 'Gómez',
+    title: "Last Name : ",
+    description: "Gómez",
   },
 
   {
     id: 3,
-    title: 'Age : ',
-    description: '21 Years',
+    title: "Age : ",
+    description: "21 Years",
   },
 
   {
     id: 4,
-    title: 'Nationality : ',
-    description: 'Uruguayan',
+    title: "Nationality : ",
+    description: "Uruguayan,<br />Spanish",
   },
 
   {
     id: 5,
-    title: 'Freelance : ',
-    description: 'Available',
+    title: "Freelance : ",
+    description: "Available",
   },
 
   {
     id: 6,
-    title: 'Address : ',
-    description: 'Montevideo, UY',
+    title: "Address : ",
+    description: "Montevideo, UY",
   },
 
   {
     id: 7,
-    title: 'Email : ',
-    description: 'gomezlucas712@gmail.com',
+    title: "Email : ",
+    description: "gomezlucas712@gmail.com",
   },
 
   {
     id: 8,
-    title: 'Discord : ',
-    description: 'voguetz',
+    title: "Discord : ",
+    description: "voguetz",
   },
 
   {
     id: 9,
-    title: 'Languages : ',
-    description: 'Spanish, English',
+    title: "Languages : ",
+    description: "Spanish, English",
   },
 ];
 
 export const stats = [
   {
     id: 1,
-    no: '1+',
-    title: 'Years of <br /> Experience',
+    no: "1+",
+    title: "Years of <br /> Experience",
   },
 
   {
     id: 2,
-    no: '6+',
-    title: 'Completed <br /> Projects',
+    no: "6+",
+    title: "Completed <br /> Projects",
   },
 ];
 
 export const resume = [
   {
     id: 1,
-    category: 'experience',
+    category: "experience",
     icon: <FaBriefcase />,
-    year: '2022 - PRESENT',
-    title: 'FreeLancer <span> Dev </span>',
-    desc: 'Im currently doing job as FreeLancer Dev, trying to improve as developer and make the best.',
+    year: "2022 - PRESENT",
+    title: "FreeLancer <span> Dev </span>",
+    desc: "Im currently doing job as FreeLancer Dev, trying to improve as developer and make the best.",
   },
 
   {
     id: 2,
-    category: 'experience',
+    category: "experience",
     icon: <FaBriefcase />,
-    year: '2022 - 2022',
-    title: 'Administrative Advisor <span> Vic2 </span>',
-    desc: 'Customer Support, advice to clients with government procedures',
+    year: "2022 - 2022",
+    title: "Administrative Advisor <span> Vic2 </span>",
+    desc: "Customer Support, advice to clients with government procedures",
   },
 
   {
     id: 3,
-    category: 'experience',
+    category: "experience",
     icon: <FaBriefcase />,
-    year: '2020 - 2022',
-    title: 'Delivery Driver <span> ZonaLogistica </span>',
-    desc: 'Distribution of mobile phones, medicines and miscellaneous items. I had employees in charge.',
+    year: "2020 - 2022",
+    title: "Delivery Driver <span> ZonaLogistica </span>",
+    desc: "Distribution of mobile phones, medicines and miscellaneous items. I had employees in charge.",
   },
 
   {
     id: 4,
-    category: 'education',
+    category: "education",
     icon: <FaGraduationCap />,
-    year: '2021-Present',
-    title: 'Full-Stack Dev <span> Udemy and self-taught</span>',
-    desc: 'I started studying programming as a self-taught person, then I decided to buy courses on Udemy and search every possible site to improve day by day by doing projects.',
+    year: "2021-Present",
+    title: "Full-Stack Dev <span> Udemy and self-taught</span>",
+    desc: "I started studying programming as a self-taught person, then I decided to buy courses on Udemy and search every possible site to improve day by day by doing projects.",
   },
 
   {
     id: 5,
-    category: 'education',
+    category: "education",
     icon: <FaGraduationCap />,
-    year: '2022',
-    title: 'DBA Administrator <span> Focan Spain </span>',
-    desc: 'Data Base Analyst (SQL,NoSQL,FireBase, Apache, MER).',
+    year: "2022",
+    title: "DBA Administrator <span> Focan Spain </span>",
+    desc: "Data Base Analyst (SQL,NoSQL,FireBase, Apache, MER).",
   },
 
   {
     id: 6,
-    category: 'education',
+    category: "education",
     icon: <FaGraduationCap />,
-    year: '2019',
-    title: 'Bachelor Degree <span> Liceo Empalme Olmos </span>',
-    desc: 'High school economics student',
+    year: "2019",
+    title: "Bachelor Degree <span> Liceo Empalme Olmos </span>",
+    desc: "High school economics student",
   },
 ];
 
 export const skills = [
   {
     id: 1,
-    title: 'HTML',
-    percentage: '90',
+    title: "HTML",
+    percentage: "90",
   },
 
   {
     id: 2,
-    title: 'JavaScript',
-    percentage: '80',
+    title: "JavaScript",
+    percentage: "80",
   },
 
   {
     id: 3,
-    title: 'CSS(Sass, Tailwind)',
-    percentage: '70',
+    title: "CSS(Sass, Tailwind)",
+    percentage: "70",
   },
 
   {
     id: 4,
-    title: 'Laravel',
-    percentage: '70',
+    title: "Laravel",
+    percentage: "70",
   },
 
   {
     id: 5,
-    title: 'React',
-    percentage: '65',
+    title: "React",
+    percentage: "65",
   },
 
   {
     id: 6,
-    title: 'TypeScript',
-    percentage: '50',
+    title: "TypeScript",
+    percentage: "50",
   },
 
   {
     id: 7,
-    title: 'Vue.js',
-    percentage: '65',
+    title: "Vue.js",
+    percentage: "65",
   },
 
   {
     id: 8,
-    title: 'Flutter',
-    percentage: '45',
+    title: "Flutter",
+    percentage: "45",
   },
 ];
 
@@ -235,27 +235,27 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: 'Vos Salon Estética',
+    title: "Vos Salon Estética",
     details: [
       {
         icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Barber Shop WebApp',
+        title: "Project : ",
+        desc: "Barber Shop WebApp",
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Vos Salon',
+        title: "Client : ",
+        desc: "Vos Salon",
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'PHP, Sass, JS',
+        title: "Language : ",
+        desc: "PHP, Sass, JS",
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: '(In Progress)',
+        title: "Preview : ",
+        desc: "(In Progress)",
       },
     ],
   },
@@ -263,83 +263,82 @@ export const portfolio = [
   {
     id: 2,
     img: Work2,
-    title: 'Personal Portfolio',
+    title: "Personal Portfolio",
     details: [
       {
         icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Website',
+        title: "Project : ",
+        desc: "Website",
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Personal Project',
+        title: "Client : ",
+        desc: "Personal Project",
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Astro, TailwindCSS, JavaScript',
+        title: "Language : ",
+        desc: "Astro, TailwindCSS, JavaScript",
       },
       {
-        icon: <FiExternalLink  />,
-        title: 'Preview : ',
-        desc: 'https://lucasgomez.netlify.app/',
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "https://lucasgomez.netlify.app/",
       },
     ],
   },
 
-  
-
   {
     id: 3,
     img: Work3,
-    title: 'KND-Weather',
+    title: "KND-Weather",
     details: [
       {
         icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'WebApp',
+        title: "Project : ",
+        desc: "WebApp",
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Personal Project',
+        title: "Client : ",
+        desc: "Personal Project",
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'ReactJS',
+        title: "Language : ",
+        desc: "ReactJS",
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'https://kndweather.netlify.app/',
+        title: "Preview : ",
+        desc: "https://kndweather.netlify.app/",
       },
     ],
-  },{
+  },
+  {
     id: 4,
     img: Bienesraices,
-    title: 'Bienes Raices (Real State)',
+    title: "Bienes Raices (Real State)",
     details: [
       {
         icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'WebApp',
+        title: "Project : ",
+        desc: "WebApp",
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Personal Project',
+        title: "Client : ",
+        desc: "Personal Project",
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'JavaScript, Sass',
+        title: "Language : ",
+        desc: "JavaScript, Sass",
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
+        title: "Preview : ",
+        desc: "(In Progress)",
       },
     ],
   },

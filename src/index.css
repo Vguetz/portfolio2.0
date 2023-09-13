@@ -140,6 +140,16 @@
 }
 
 @media screen and (max-width: 768px) {
+
+
+
+    .contact__data {
+        padding-left: 30px;
+    }
+
+    .resume__container {
+        padding-left: 30px;
+    }
     .home {
         grid-template-columns: 1fr;
         justify-items: center;
@@ -195,6 +205,13 @@
 }
 
 @media screen and (max-width: 576px) {
+    .skills__container {
+        padding-left: 10px;
+    }
+ 
+    .about__container {
+        padding-left: 30px;
+    }
     .nav__toggle {
         top: 20px;
         right: 15px;
@@ -219,6 +236,7 @@
         grid-template-columns: repeat(2,1fr);
     }
     .portfolio__container {
+        justify-items: center;
         grid-template-columns: 1fr;
     }
 
@@ -283,6 +301,8 @@
     .stats__box {
         padding: 15px 15px;
     }
+    
+    
 
 
 }
@@ -299,4 +319,6 @@
     .stats {
         grid-template-columns: 1fr;
     }
+
+    
 }
