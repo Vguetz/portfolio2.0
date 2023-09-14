@@ -19,58 +19,107 @@ const Contact = () => {
         <div className="contact__data">
           <h3 className="contact__title">Feel Free to Contact Me!</h3>
 
-          <p className="contact__description">Always open to discuss new projects or opportunities to be part of!</p>
+          <p className="contact__description">
+            Always open to discuss new projects or opportunities to be part of!
+          </p>
 
           <div className="contact__info">
             <div className="info__item">
-              <FiExternalLink /> <a href="mailto:gomezlucas712@gmail.com"><FaEnvelopeOpen className='info__icon' /></a>
+              <FiExternalLink />{" "}
+              <a href="mailto:gomezlucas712@gmail.com">
+                <FaEnvelopeOpen className="info__icon" />
+              </a>
               <div>
-                <span className='info__title'>Mail me</span>
-                <a href="mailto:gomezlucas712@gmail.com"><h4 className="info__desc">gomezlucas712@gmail.com</h4></a>
+                <span className="info__title">Mail me</span>
+                <a href="mailto:gomezlucas712@gmail.com">
+                  <h4 className="info__desc">gomezlucas712@gmail.com</h4>
+                </a>
               </div>
             </div>
 
             <div className="info__item">
-              <FiExternalLink />  <a href="https://www.linkedin.com/in/lucasgomezapp/" ><FaLinkedin className='info__icon' /> </a>
+              <FiExternalLink />{" "}
+              <a href="https://www.linkedin.com/in/lucasgomezapp/">
+                <FaLinkedin className="info__icon" />{" "}
+              </a>
               <div>
-                <span className='info__title'>LinkedIn</span>
-                <a href='https://www.linkedin.com/in/lucasgomezapp/'><h4 className="info__desc">Lucas Gomez</h4></a>
+                <span className="info__title">LinkedIn</span>
+                <a href="https://www.linkedin.com/in/lucasgomezapp/">
+                  <h4 className="info__desc">Lucas Gomez</h4>
+                </a>
               </div>
             </div>
           </div>
 
           <div className="contact__socials">
-            <a href="https://github.com/Vguetz" className="contact__social-link">
+            <a
+              href="https://github.com/Vguetz"
+              className="contact__social-link"
+            >
               <FaGithubSquare />
             </a>
-            <a href="https://twitter.com/Vguetz" className="contact__social-link">
+            <a
+              href="https://twitter.com/Vguetz"
+              className="contact__social-link"
+            >
               <FaTwitter />
             </a>
-            <a href="https://www.instagram.com/vguetz/" className="contact__social-link">
-              <FaInstagram className='contact_social-logo'/>
+            <a
+              href="https://www.instagram.com/vguetz/"
+              className="contact__social-link"
+            >
+              <FaInstagram className="contact_social-logo" />
             </a>
           </div>
         </div>
-        <form action="https://formsubmit.co/f4c70f5c3d5663048bd0d4bbe4166dc4" method="POST" className="contact__form">
+        <form
+          action="https://formsubmit.co/f4c70f5c3d5663048bd0d4bbe4166dc4"
+          method="POST"
+          className="contact__form"
+        >
           <div className="form__input-group">
             <div className="form__input-div">
-              <input type="text" name='name' placeholder='Your Name' className="form__control" />
+              <input
+                type="text"
+                name="name"
+                required
+                placeholder="Your Name"
+                className="form__control"
+              />
             </div>
 
             <div className="form__input-div">
-              <input name="email" id="email" type='email' placeholder='Your Email' className="form__control" />
+              <input
+                name="email"
+                id="email"
+                required
+                type="email"
+                placeholder="Your Email"
+                className="form__control"
+              />
             </div>
 
             <div className="form__input-div">
-              <input type="text" name="subject" id="subject" placeholder='Your Subject' className="form__control" />
+              <input
+                type="text"
+                name="subject"
+                required
+                id="subject"
+                placeholder="Your Subject"
+                className="form__control"
+              />
             </div>
           </div>
           <div className="form__input-div">
-            <textarea name='message' placeholder='Your Message' className="form__control textarea"></textarea>
+            <textarea
+              name="message"
+              required
+              placeholder="Your Message"
+              className="form__control textarea"
+            ></textarea>
           </div>
 
-
-          <button className='button'>
+          <button className="button">
             Send Message
             <span className="button__icon contact__button-icon">
               <FiSend />
@@ -79,7 +128,7 @@ const Contact = () => {
         </form>
       </div>
     </section>
-  )
+  );
 }
 
 export default Contact
