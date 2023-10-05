@@ -255,7 +255,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "(In Progress)",
+        desc: "http://nigdudu.domcloud.io/",
       },
     ],
   },
