@@ -10,6 +10,7 @@ import {
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
 import Bienesraices from './assets/bienesraices.png'
+import IntelliExtract from './assets/IntelliExtract.png'
 import Work1 from './assets/project-1.png';
 import Work2 from './assets/project-2.png';
 import Work3 from './assets/project-3.png';
@@ -259,9 +260,36 @@ export const portfolio = [
       },
     ],
   },
-
   {
     id: 2,
+    img: IntelliExtract,
+    title: "intelliExtract",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "WebApp",
+      },
+      {
+        icon: <FiUser />,
+        title: "Project : ",
+        desc: "Personal Project",
+      },
+      {
+        icon: <FaCode />,
+        title: "Languages & FrameWorks : ",
+        desc: "NextJS, TypeScript, TailwindCSS, Prisma",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Preview : ",
+        desc: "https://intelli-extract.vercel.app/",
+      },
+    ],
+  },
+
+  {
+    id: 3,
     img: Work2,
     title: "Personal Portfolio",
     details: [
@@ -287,9 +315,10 @@ export const portfolio = [
       },
     ],
   },
+  
 
   {
-    id: 3,
+    id: 4,
     img: Work3,
     title: "KND-Weather",
     details: [
@@ -316,7 +345,7 @@ export const portfolio = [
     ],
   },
   {
-    id: 4,
+    id: 5,
     img: Bienesraices,
     title: "Bienes Raices (Real State)",
     details: [
