@@ -6,54 +6,55 @@ import {
   FaBriefcase,
   FaGraduationCap,
   FaCode,
-} from 'react-icons/fa';
-import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
+} from "react-icons/fa";
+import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 
-import Bienesraices from './assets/bienesraices.png'
-import IntelliExtract from './assets/IntelliExtract.png'
-import Work1 from './assets/project-1.png';
-import Work2 from './assets/project-2.png';
-import Work3 from './assets/project-3.png';
-import Cebador from './assets/cebador.png';
+import Bienesraices from "./assets/bienesraices.png";
+import IntelliExtract from "./assets/IntelliExtract.png";
+import Work1 from "./assets/project-1.png";
+import Work2 from "./assets/project-2.png";
+import Work3 from "./assets/project-3.png";
+import Cebador from "./assets/cebador.png";
+import HadalaShop from "./assets/hadala.png";
 
-import Theme1 from './assets/purple.png';
-import Theme2 from './assets/red.png';
-import Theme3 from './assets/blueviolet.png';
-import Theme4 from './assets/blue.png';
-import Theme5 from './assets/goldenrod.png';
-import Theme6 from './assets/magenta.png';
-import Theme7 from './assets/yellowgreen.png';
-import Theme8 from './assets/orange.png';
-import Theme9 from './assets/green.png';
-import Theme10 from './assets/yellow.png';
+import Theme1 from "./assets/purple.png";
+import Theme2 from "./assets/red.png";
+import Theme3 from "./assets/blueviolet.png";
+import Theme4 from "./assets/blue.png";
+import Theme5 from "./assets/goldenrod.png";
+import Theme6 from "./assets/magenta.png";
+import Theme7 from "./assets/yellowgreen.png";
+import Theme8 from "./assets/orange.png";
+import Theme9 from "./assets/green.png";
+import Theme10 from "./assets/yellow.png";
 
 export const links = [
   {
     id: 1,
-    name: 'Home',
-    icon: <FaHome className='nav__icon' />,
-    path: '/',
+    name: "Home",
+    icon: <FaHome className="nav__icon" />,
+    path: "/",
   },
 
   {
     id: 2,
-    name: 'About',
-    icon: <FaUser className='nav__icon' />,
-    path: '/about',
+    name: "About",
+    icon: <FaUser className="nav__icon" />,
+    path: "/about",
   },
 
   {
     id: 3,
-    name: 'Portfolio',
-    icon: <FaFolderOpen className='nav__icon' />,
-    path: '/portfolio',
+    name: "Portfolio",
+    icon: <FaFolderOpen className="nav__icon" />,
+    path: "/portfolio",
   },
 
   {
     id: 4,
-    name: 'Contact',
-    icon: <FaEnvelopeOpen className='nav__icon' />,
-    path: '/contact',
+    name: "Contact",
+    icon: <FaEnvelopeOpen className="nav__icon" />,
+    path: "/contact",
   },
 ];
 
@@ -116,7 +117,7 @@ export const personalInfo = [
 export const stats = [
   {
     id: 1,
-    no: "1+",
+    no: "2+",
     title: "Years of <br /> Experience",
   },
 
@@ -128,6 +129,14 @@ export const stats = [
 ];
 
 export const resume = [
+  {
+    id: 0,
+    category: "education",
+    icon: <FaGraduationCap />,
+    year: "2023 - PRESENT",
+    title: "Bachelor of Computer Science <span> ORT </span>",
+    desc: "Student of Computer Science, I am currently studying the 2nd year of the career.",
+  },
   {
     id: 1,
     category: "experience",
@@ -185,84 +194,77 @@ export const resume = [
 
 export const skills = [
   {
-    id: 1,
-    title: "HTML",
-    percentage: "90",
-  },
-
-  {
     id: 2,
-    title: "JavaScript",
-    percentage: "80",
+    title: "TypeScript / JavaScript",
+    percentage: "100",
   },
 
   {
     id: 3,
-    title: "CSS(Sass, Tailwind)",
-    percentage: "70",
+    title: "ExpressJS / NodeJS",
+    percentage: "100",
   },
 
   {
     id: 4,
-    title: "Laravel",
+    title: "Laravel / PHP",
     percentage: "70",
   },
 
   {
     id: 5,
-    title: "React",
-    percentage: "65",
+    title: "React / NextJS",
+    percentage: "100",
   },
 
   {
     id: 6,
-    title: "TypeScript",
-    percentage: "50",
+    title: ".NET ",
+    percentage: "100",
   },
 
   {
     id: 7,
-    title: "Vue.js",
-    percentage: "65",
+    title: "Flutter",
+    percentage: "90",
   },
-
   {
     id: 8,
-    title: "Flutter",
-    percentage: "45",
+    title: "Python",
+    percentage: "90",
   },
 ];
 
 export const portfolio = [
   {
     id: 1,
-    img: Work1,
-    title: "Vos Salon Estética",
+    img: HadalaShop,
+    title: "Hadala Shop",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Barber Shop WebApp",
+        desc: "WebApp",
       },
       {
         icon: <FiUser />,
-        title: "Client : ",
-        desc: "Vos Salon",
+        title: "Project : ",
+        desc: "Client Website",
       },
       {
         icon: <FaCode />,
-        title: "Language : ",
-        desc: "PHP, Sass, JS",
+        title: "Languages & FrameWorks : ",
+        desc: "NextJS, TypeScript, TailwindCSS, MongoDB, PayloadCMS, .NET Core, C#",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "http://nigdudu.domcloud.io/",
+        desc: "https://hadalashop.com/",
       },
     ],
   },
   {
-    id: 2,
+    id: 3,
     img: Cebador,
     title: "Cebador",
     details: [
@@ -284,12 +286,12 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "https://cebador.vercel.app/",
+        desc: "https://cebador-v-1-0.vercel.app/",
       },
     ],
   },
   {
-    id: 3,
+    id: 4,
     img: IntelliExtract,
     title: "intelliExtract",
     details: [
@@ -311,13 +313,13 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "https://intelli-extract.vercel.app/",
+        desc: "https://intelli-extract-one.vercel.app/",
       },
     ],
   },
 
   {
-    id: 4,
+    id: 5,
     img: Work2,
     title: "Personal Portfolio",
     details: [
@@ -343,10 +345,9 @@ export const portfolio = [
       },
     ],
   },
-  
 
   {
-    id: 5,
+    id: 6,
     img: Work3,
     title: "KND-Weather",
     details: [
@@ -373,7 +374,7 @@ export const portfolio = [
     ],
   },
   {
-    id: 6,
+    id: 7,
     img: Bienesraices,
     title: "Bienes Raices (Real State)",
     details: [
@@ -405,60 +406,60 @@ export const themes = [
   {
     id: 1,
     img: Theme1,
-    color: 'hsl(252, 35%, 51%)',
+    color: "hsl(252, 35%, 51%)",
   },
 
   {
     id: 2,
     img: Theme2,
-    color: 'hsl(4, 93%, 54%)',
+    color: "hsl(4, 93%, 54%)",
   },
 
   {
     id: 3,
     img: Theme3,
-    color: 'hsl(271, 76%, 53%)',
+    color: "hsl(271, 76%, 53%)",
   },
 
   {
     id: 4,
     img: Theme4,
-    color: 'hsl(225, 73%, 57%)',
+    color: "hsl(225, 73%, 57%)",
   },
 
   {
     id: 5,
     img: Theme5,
-    color: 'hsl(43, 74%, 49%)',
+    color: "hsl(43, 74%, 49%)",
   },
 
   {
     id: 6,
     img: Theme6,
-    color: 'hsl(339, 81%, 66%)',
+    color: "hsl(339, 81%, 66%)",
   },
 
   {
     id: 7,
     img: Theme7,
-    color: 'hsl(80, 61%, 50%)',
+    color: "hsl(80, 61%, 50%)",
   },
 
   {
     id: 8,
     img: Theme8,
-    color: 'hsl(19, 96%, 52%)',
+    color: "hsl(19, 96%, 52%)",
   },
 
   {
     id: 9,
     img: Theme9,
-    color: 'hsl(88, 65%, 43%)',
+    color: "hsl(88, 65%, 43%)",
   },
 
   {
     id: 10,
     img: Theme10,
-    color: 'hsl(42, 100%, 50%)',
+    color: "hsl(42, 100%, 50%)",
   },
 ];
