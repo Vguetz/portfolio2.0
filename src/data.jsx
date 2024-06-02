@@ -208,7 +208,7 @@ export const skills = [
   {
     id: 4,
     title: "Laravel / PHP",
-    percentage: "70",
+    percentage: "100",
   },
 
   {
